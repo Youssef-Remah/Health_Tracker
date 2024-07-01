@@ -1,16 +1,48 @@
-# health_tracker
+# Health Tracker Application
 
-A new Flutter project.
+The Health Tracker app uses Bluetooth Low Energy (BLE) technology to connect with smartwatches and fitness trackers. It allows users to monitor various health metrics conveniently.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Bluetooth Connectivity:** Connect with smartwatches and fitness trackers using Bluetooth Low Energy.
 
-A few resources to get you started if this is your first Flutter project:
+- **Health Data Tracking:** Track essential health data such as:
+  - Heart rate
+  - Distance covered
+  - Steps taken
+  - Calories burnt
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Scan for Devices:** Start with a scan screen to find nearby BLE devices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Device Selection:** Choose which device to connect with from the list of scanned devices.
+
+- **Continuous Monitoring:** Once connected, the app continuously listens for health data updates from the fitness tracker.
+
+## How to Use
+1. Scanning for Devices:
+    - Open the app to the scan screen.
+    - The app will automatically start scanning for nearby BLE devices.
+
+2. Connecting to a Device:
+    - Select your preferred device from the list of available devices.
+    - The app will establish a connection with the selected device.
+
+3. Tracking Health Data:
+    - Once connected, the app will start receiving and displaying health data from the device in real-time.
+
+## Installation
+**1- Clone the repository:**
+
+`git clone https://github.com/Youssef-Remah/Health_Tracker.git`
+
+**2- Navigate to the project directory:**
+
+`cd health-tracker`
+
+**3- Install dependencies:**
+
+`flutter pub get`
+
+**4- Run the application:**
+
+`flutter run`
